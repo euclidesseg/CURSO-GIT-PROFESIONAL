@@ -43,3 +43,6 @@
 ---- que se iniciara la publicación.
 ---- estas ramas siempre se crean como una funcion en la rama de develop y solo cuando develop ya tiene todas sus funciones 
 ---- o features
+
+----- En cuanto la publicación esté lista para su lanzamiento, 
+----- se fusionará en las ramas main y develop, y luego se eliminará la rama release.
