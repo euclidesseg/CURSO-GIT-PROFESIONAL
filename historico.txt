@@ -1,0 +1,15 @@
+----$touch historico.txt                                    = crear un archivo
+----$ git rm --cached historico.txt                         = para regresar los cambios despues de add
+----$ git commit -m "este es el primer commit"              = agregar al repositorios
+----$ git config --global user.name "Euclides Perez"        = cambiar la configuracion de nombre de usuario
+----$ git config --global uer.email "eperez@intecol.com.co" = cambiar la configuracion de correo de usuario
+----$ code historico.txt        = abrir un archivo en code
+----$ git log historio.txt      = ver el historico de un archivo me indica HEAD que es el estado actual
+----$ git show historico.txt    = ver mas detalles de un archivo  
+----$ git reset 32e88fcab27b48adcb5f86f0756a7fb6c1c7f5de --hard = para regresar a una vesion anterior el
+------numero largo es la version obtenida con git log
+----$ git branch -nombre de la rama-:    = Con este comando se genera una nueva rama. 
+----$ git checkout -nombre de la rama-:  = Con este comando puedes saltar de una rama a otra. 
+----$ git checkout -b rama:  = Genera una rama y nos mueve a ella automáticamente, Es decir, es la combinación de git brach y git checkout al mismo tiempo. 
+----$ git reset id-commit:  = Nos lleva a cualquier commit no importa la rama, ya que identificamos el id del tag., eliminando el historial de los commit posteriores al tag seleccionado. 
+----$ git checkout rama-o-id-commit:  = Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.
