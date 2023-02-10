@@ -29,3 +29,16 @@
 
 ----- Para fusionar una rama con otra primero nos paramos en la rama en la que queremos agregar los cambios de otra rama 
 ----- Con git checkout y luego si hacemos el merge
+
+        RAMAS DE PUBLICACION O RELEASE
+---- Cuando develop haya adquirido suficientes funciones para una publicación 
+---- (o se acerque una fecha de publicación predeterminada), debes bifurcar una rama release 
+---- a partir de develop. Al crear esta rama, se inicia el siguiente ciclo de publicación, 
+---- por lo que no pueden añadirse nuevas funciones una vez pasado este punto 
+---- (en esta rama solo deben producirse las soluciones de errores, la generación de documentación y 
+---- otras tareas orientadas a la publicación). Cuando está lista para el lanzamiento, 
+---- la rama release se fusiona en main y se etiqueta con un número de versión. 
+---- Además, debería volver a fusionarse en develop, ya que esta podría haber progresado desde 
+---- que se iniciara la publicación.
+---- estas ramas siempre se crean como una funcion en la rama de develop y solo cuando develop ya tiene todas sus funciones 
+---- o features
