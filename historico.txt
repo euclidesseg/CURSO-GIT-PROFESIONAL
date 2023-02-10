@@ -13,3 +13,5 @@
 ----$ git checkout -b rama:  = Genera una rama y nos mueve a ella automáticamente, Es decir, es la combinación de git brach y git checkout al mismo tiempo. 
 ----$ git reset id-commit:  = Nos lleva a cualquier commit no importa la rama, ya que identificamos el id del tag., eliminando el historial de los commit posteriores al tag seleccionado. 
 ----$ git checkout rama-o-id-commit:  = Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.
+
+intentando subi cambios a la rama develop
