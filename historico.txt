@@ -15,3 +15,6 @@
 ----$ git checkout rama-o-id-commit:  = Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.
 
 intentando subi cambios a la rama develop
+
+
+intentando subir camnios a la fusion feature 1
