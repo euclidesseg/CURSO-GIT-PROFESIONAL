@@ -46,3 +46,28 @@
 
 ----- En cuanto la publicación esté lista para su lanzamiento, 
 ----- se fusionará en las ramas main y develop, y luego se eliminará la rama release.
+
+        RAMAS DE CORRECCION HOTFIX
+----- Las ramas de mantenimiento, de corrección o de hotfix sirven para reparar rápidamente las publicaciones de producción. 
+----- Las ramas hotfix son muy similares a las ramas release y feature, 
+----- salvo por el hecho de que se basan en la rama main y no en la develop
+
+----$ git checkout master = me lleva a la rama master
+----$ git checkout -b hotfix_branch = me crea el otifix a partir de la rama master
+
+----- Al igual que al finalizar una rama release, 
+----- una rama hotfix se fusiona tanto en master como en develop y luego se elimina
+----- para posteriormente publicar la rama master
+
+
+        RESUMEN
+
+        El flujo general de Gitflow es el siguiente:
+
+        Se crea una rama develop a partir de Master.
+        Se crea una rama release a partir de la develop.
+        Se crean ramas feature a partir de la develop.
+        Cuando se termina una rama feature, se fusiona en la rama develop.
+        Cuando la rama release está lista, se fusiona en las ramas develop y main.
+        Si se detecta un problema en main, se crea una rama hotfix a partir de main.
+        Una vez terminada la rama hotfix, esta se fusiona tanto en develop como en main
