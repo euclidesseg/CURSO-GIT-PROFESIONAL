@@ -11,7 +11,7 @@
 ----$ git reset 32e88fcab27b48adcb5f86f0756a7fb6c1c7f5de --hard = para regresar a una vesion anterior el
 ------numero largo es la version obtenida con git log
 
-        RAMAS DE FUNCION
+        RAMAS DE FUNCION FEATURE
 ----- Todas las funciones nuevas deben residir en su propia rama, 
 ----- que se puede enviar al repositorio central para copia de seguridad. 
 ----- Sin embargo, en lugar de ramificarse de main, las ramas feature utilizan
