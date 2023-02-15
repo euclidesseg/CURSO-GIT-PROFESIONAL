@@ -3,6 +3,7 @@
 ----$ git commit -m "este es el primer commit"              = agregar al repositorios
 ----$ git config --global user.name "Euclides Perez"        = cambiar la configuracion de nombre de usuario
 ----$ git config --global uer.email "eperez@intecol.com.co" = cambiar la configuracion de correo de usuario
+----$ git branch                = ver todas las ramas disponibles 
 ----$ git branch -D <nombre_de_rama>                        = eliminar una rama 
 ----$ code historico.txt        = abrir un archivo en code
 ----$ git log historio.txt      = ver el historico de un archivo me indica HEAD que es el estado actual
