@@ -9,6 +9,8 @@
 ----$ git log historio.txt      = ver el historico de un archivo me indica HEAD que es el estado actual
 ----$ git show historico.txt    = ver mas detalles de un archivo  
 ----$ git reset 32e88fcab27b48adcb5f86f0756a7fb6c1c7f5de --hard = para regresar a una vesion anterior el
+----$ git reset --soft 48ec7f9f978e0f17c994e3b1732124c84cd645f1 me devuelve al cambio indicado en el id pero me deja en el state los git posteriores
+----$ es decir como si le hubiese dado git add .
 ------numero largo es la version obtenida con git log
 
         RAMAS DE FUNCION FEATURE
