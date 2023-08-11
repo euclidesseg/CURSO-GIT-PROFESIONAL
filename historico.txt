@@ -15,6 +15,16 @@
 ----$ es decir como si le hubiese dado git add .
 ------numero largo es la version obtenida con git log
 
+
+        1. `git commit -a`: Prepara automáticamente los archivos en el área de preparación.
+        2. `git log -p`: Produce texto de parche.
+        3. `git show`: Muestra varios objetos.
+        4. `git diff`: Similar al comando `diff` en Linux, muestra diferencias entre confirmaciones.
+        5. `git diff --staged`: Un alias para `--cached`, muestra todos los archivos en el área de preparación en comparación con la confirmación         nombrada.
+        6. `git add -p`: Permite a un usuario revisar parches de forma interactiva para prepararlos en la confirmación actual.
+        7. `git mv`: Similar al comando `mv` en Linux, mueve un archivo.
+        8. `git rm`: Similar al comando `rm` en Linux, borra o elimina un archivo.
+
         RAMAS DE FUNCION FEATURE
 ----- Todas las funciones nuevas deben residir en su propia rama, 
 ----- que se puede enviar al repositorio central para copia de seguridad. 
