@@ -38,10 +38,11 @@
 ----$ git branch -nombre de la rama-:    = Con este comando se genera una nueva rama. 
 ----$ git checkout -nombre de la rama-:  = Con este comando puedes saltar de una rama a otra. 
 ----$ git checkout -b rama:  = Genera una rama y nos mueve a ella automáticamente, Es decir, es la combinación de git brach y git checkout al mismo tiempo. 
-----$ git reset id-commit:  = Nos lleva a cualquier commit no importa la rama, ya que identificamos el id del tag., eliminando el historial de los commit posteriores al tag seleccionado. 
+----$ git reset id-commit:  = Nos lleva a cualquier commit no importa la rama, ya que identificamos el id del tag., eliminando el historial de los commit                 posteriores al tag seleccionado.
 ----$ git checkout rama-o-id-commit:  = Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.
 ----$ git merge feature1       = Nos permite fusionar una rama de funcion con la rama develop tambien fusionar develop con la rama master
 ----- intentando subi cambios a la rama develop
+----$ git --abortar   = si al intentar unir dos ramas se generan conflictos con este cambio se puede dehacer el merge.
 ----- intentando subir camnios a la fusion feature 1
 
 ----- Para fusionar una rama con otra primero nos paramos en la rama en la que queremos agregar los cambios de otra rama 
