@@ -25,7 +25,7 @@
         6. `git add -p`: Permite a un usuario revisar parches de forma interactiva para prepararlos en la confirmación actual.
         7. `git mv`: Similar al comando `mv` en Linux, mueve un archivo.
         8. `git rm`: Similar al comando `rm` en Linux, borra o elimina un archivo.
-        9.   `git revert`: Similar al comando `revert` en Linux, revierte un commit y crea uno nuevo ignorando los cambios del anterior no                      elimina ya que el cambio anterior sigue estando en el historial de commits.
+        9.   `git revert`: Similar al comando `revert` en Linux, revierte un commit y crea uno nuevo ignorando los cambios del anterior no      elimina ya que el cambio anterior sigue estando en el historial de commits.
 
         RAMAS DE FUNCION FEATURE
 ----- Todas las funciones nuevas deben residir en su propia rama, 
