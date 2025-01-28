@@ -38,6 +38,7 @@
 ----$ git branch -nombre de la rama-:    = Con este comando se genera una nueva rama. 
 ----$ git checkout -nombre de la rama-:  = Con este comando puedes saltar de una rama a otra. 
 ----$ git checkout -b rama:  = Genera una rama y nos mueve a ella automáticamente, Es decir, es la combinación de git brach y git checkout al mismo tiempo. 
+----$ git push -u origin nuevarama c = cuando haces un git clone y creas una nueva rama en local este comando Sube tu rama local (nombre de tu rama) al repositorio remoto 
 ----$ git reset id-commit:  = Nos lleva a cualquier commit no importa la rama, ya que identificamos el id del tag., eliminando el historial de los commit                 posteriores al tag seleccionado.
 ----$ git checkout rama-o-id-commit:  = Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.
 ----$ git merge feature1       = Nos permite fusionar una rama de funcion con la rama develop tambien fusionar develop con la rama master
