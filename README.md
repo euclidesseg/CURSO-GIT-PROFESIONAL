@@ -150,6 +150,8 @@ git checkout -b nueva_rama
 git branch -D nombre_rama
 → Elimina una rama local.
 
+git push -u origin nombre_rama
+→ Envia una rama que esta en local hasta rel repositorio remoto.
 ================================================================================
 
 9️⃣ FUSIÓN DE RAMAS
