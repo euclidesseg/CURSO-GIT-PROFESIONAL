@@ -100,6 +100,9 @@ git add -p
 git restore historico.txt
 → Descarta los cambios locales antes de hacer git add.
 
+git restore --staged historico.txt
+→ Quita los archivos del area de preparacion luego de hacer git add.
+
 git rm historico.txt
 → Elimina un archivo del repositorio y del sistema.
 
